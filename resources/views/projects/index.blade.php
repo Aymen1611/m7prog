@@ -6,3 +6,17 @@
             </h5>
         </div>
     @endforeach 
+
+    <x-master-layout>
+      <!-- Hier komt jouw indexpagina content -->
+
+    <!-- JavaScript sectie -->
+    @section('scripts')
+        <script>
+            // Voorbeeld van een JavaScript-functie die een alert toont
+            function showAlert() {
+                alert('Dit is een voorbeeld van een werkende JavaScript-functie!');
+            }
+        </script>
+    @endsection
+</x-master-layout>
